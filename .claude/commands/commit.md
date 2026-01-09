@@ -1,6 +1,6 @@
-# /commit — Commit Changes to Git
+# /commit — Commit and Push Changes to GitHub
 
-Create a git commit with a well-crafted commit message.
+Create a git commit with a well-crafted commit message and push to GitHub.
 
 ---
 
@@ -11,6 +11,7 @@ Create a git commit with a well-crafted commit message.
 3. **Stage files** — Add relevant files to staging
 4. **Craft message** — Write a clear, meaningful commit message
 5. **Commit** — Execute the commit
+6. **Push** — Push the commit to GitHub
 
 ---
 
@@ -51,9 +52,10 @@ fix: correct mobile navigation z-index issue
 - Use present tense ("add feature" not "added feature")
 - Be specific about what changed
 - Don't commit secrets, credentials, or `.env` files
+- After committing, automatically push to origin
 
 ---
 
 ## Execute
 
-Run `git status` and `git diff` to understand what needs to be committed, then create an appropriate commit.
+Run `git status` and `git diff` to understand what needs to be committed, create an appropriate commit, then push to GitHub with `git push`.
